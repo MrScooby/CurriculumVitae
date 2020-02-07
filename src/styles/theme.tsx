@@ -24,7 +24,17 @@ let StyledComponentsTheme = (props: any) => {
 }
 const StyledComponents = withTheme(StyledComponentsTheme)
 
-let muTheme = createMuiTheme();
+let muTheme = createMuiTheme({
+  breakpoints: {
+    values: {
+      xs: 0,
+      sm: 600,
+      md: 900,
+      lg: 1200,
+      xl: 1920
+    }
+  }
+})
 muTheme = responsiveFontSizes(muTheme);
 
 const Theme = ({ children }: IChildren) => (
