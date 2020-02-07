@@ -23,7 +23,7 @@ export default () => {
       </Title>
       <Block
         order={1}
-        avatarUrl={'/img/teacode.jpeg'}
+        avatarUrl={'/public/img/teacode.jpeg'}
         header={'Spook AB'}
         dates={{
           start: '01.01.2020',
@@ -33,7 +33,7 @@ export default () => {
       />
       <Block
         order={2}
-        avatarUrl={'/img/spook.png'}
+        avatarUrl={'/public/img/spook.png'}
         header={'Spook AB'}
         dates={{
           start: '01.01.2020',
@@ -43,7 +43,7 @@ export default () => {
       />
       <Block
         order={3}
-        avatarUrl={'/img/spook.png'}
+        avatarUrl={'/public/img/spook.png'}
         header={'Spook AB'}
         dates={{
           start: '01.01.2020',
@@ -53,7 +53,7 @@ export default () => {
       />
       <Block
         order={4}
-        avatarUrl={'/img/spook.png'}
+        avatarUrl={'/public/img/spook.png'}
         last
         header={'Spook AB'}
         dates={{

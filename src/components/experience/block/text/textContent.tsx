@@ -8,9 +8,9 @@ const ContentContainer = styled('div')`
 `
 
 const Content = styled('p')`
-  font-size: 20px;
+  font-size: 18px;
   text-align: justify;
-  line-height: 22pt;
+  line-height: 19pt;
 `
 
 export default ({ children }: IChildren) => {

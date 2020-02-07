@@ -22,6 +22,7 @@ const MenuElement = styled('div')`
   text-transform: uppercase;
   font-weight: 700;
   border-radius: 5px;
+  letter-spacing: 2px;
 
   &:hover {
     background-color: ${props => props.theme.colors.mineShaft};

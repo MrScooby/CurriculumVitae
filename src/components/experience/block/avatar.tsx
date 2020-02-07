@@ -43,6 +43,7 @@ export default ({ left, avatarUrl }: IAvatar) => {
     >
       <BlockAvatar
         src={avatarUrl}
+        alt={'image'}
       />
     </BlockAvatarContainer>
   )

@@ -8,7 +8,7 @@ const HeaderContainer = styled('div')`
 `
 
 const Header = styled('p')`
-  font-size: 30px;
+  font-size: 26px;
   text-align: center;
 `
 

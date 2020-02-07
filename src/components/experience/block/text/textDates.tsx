@@ -8,7 +8,7 @@ const DatesContainer = styled('div')`
 `
 
 const Dates = styled('p')`
-  font-size: 17px;
+  font-size: 14px;
   text-align: center;
 `
 
