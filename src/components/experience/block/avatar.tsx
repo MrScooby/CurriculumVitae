@@ -7,31 +7,21 @@ interface IAvatar {
 }
 
 const BlockAvatarContainer = styled('div')<{left: boolean}>`
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 160px;
   height: 160px;
   background-color: black;
   border: 3px solid ${props => props.theme.colors.concrete};
   border-radius: 50%;
-  margin: auto 0;
 
-  ${props => props.left ? `
-    transform: translateX(-84px);
-    margin-right: -50px;
-  ` : `
-    transform: translateX(85px);
-    margin-left: -50px;
-  `}
+  ${props => props.theme.breakpoints.down('xs')} {
+    width: 110px;
+    height: 110px;
+  }
 `
 
 const BlockAvatar = styled('img')`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 160px;
-  height: 160px;
+  width: 100%;
+  height: 100%;
   border-radius: 100%;
   object-fit: cover;
 `

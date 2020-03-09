@@ -11,11 +11,15 @@ const TextContainer = styled('div')`
   justify-content: center;
   align-items: flex-start;
   min-height: 150px;
-  width: 500px;
+  max-width: 500px;
   margin: 30px 0;
 
-  ${props => props.theme.breakpoints.down('sm')} {
+  ${props => props.theme.breakpoints.down('md')} {
     display: none;
+  }
+
+  &.focused {
+    display: flex;
   }
 `
 

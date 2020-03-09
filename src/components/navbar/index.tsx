@@ -16,15 +16,16 @@ const NavbarContainer = styled('div') <{ navbarDown: boolean }>`
   height: 80px;
   position: fixed;
   top: 0;
-
-  transform: translateY(${ props => props.navbarDown ? '0' : '-80px'});
+  z-index: 1;
+  
+  transform: translateY(${ props => props.navbarDown ? '0' : '-265px'});
   transition: transform .5s;
 
   ${props => props.theme.breakpoints.down('sm')} {
+    transform: translateY(${ props => props.navbarDown ? '0' : '-265px'});
     height: 250px;
     flex-direction: column;
     padding-bottom: 15px;    
-    transform: translateY(${ props => props.navbarDown ? '0' : '-265px'});
   }
 `
 

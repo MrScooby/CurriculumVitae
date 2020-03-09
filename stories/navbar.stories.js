@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import React from 'react'
 import { storiesOf } from '@storybook/react'
-import Navbar from '../src/components/navbar/navbar'
+import Navbar from '../src/components/navbar'
 
 const Wrapper = styled('div')`
   width: 100%;

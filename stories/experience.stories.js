@@ -2,8 +2,7 @@ import React from 'react'
 import { storiesOf } from '@storybook/react'
 import { number, boolean } from '@storybook/addon-knobs'
 
-import Experience from '../src/components/experience/experience'
-import Block from '../src/components/experience/block/block'
+import Experience from '../src/components/experience/index'
 
 storiesOf('Experience', module)
   .add('Full', () => {

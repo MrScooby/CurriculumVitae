@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import React from 'react'
 
 import Title from './title'
-import Block from './block/block'
+import Block from './block'
 
 const ExperienceContainer = styled('div')`
   display: flex;

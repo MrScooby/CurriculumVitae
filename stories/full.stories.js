@@ -1,8 +1,8 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
 
-import Navbar from '../src/components/navbar/navbar'
-import Intro from '../src/components/intro/intro'
+import Navbar from '../src/components/navbar'
+import Intro from '../src/components/intro'
 
 storiesOf('Full', module)
   .add('Full', () => {

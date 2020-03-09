@@ -1,6 +1,6 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
-import Intro from '../src/components/intro/intro'
+import Intro from '../src/components/intro'
 
 storiesOf('Intro', module)
   .add('Full', () => {
